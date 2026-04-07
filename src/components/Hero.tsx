@@ -5,7 +5,7 @@ import AnimateIn from "@/components/AnimateIn";
 export default function Hero() {
   return (
     <section className="bg-white py-10 lg:py-16">
-      <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
+      <div className="mx-auto max-w-[1280px] px-4 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
           {/* Left column - Text */}
           <div>

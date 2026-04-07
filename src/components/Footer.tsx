@@ -13,7 +13,7 @@ const navLinks = [
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-[#E5E7EB] py-8">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         <AnimateIn direction="none">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* Logo */}

@@ -15,7 +15,7 @@ const locations = [
 export default function Contact() {
   return (
     <section id="contact" className="py-20 lg:py-28 bg-[#F5F8FF]">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         <AnimateIn>
           <h2 className="font-[family-name:var(--font-inter-display)] text-4xl lg:text-[50px] font-medium leading-[60px] tracking-[-1.5px] text-[#121212] mb-12 max-w-2xl">
             Talk to us about your dental concerns

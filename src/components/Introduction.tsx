@@ -32,7 +32,7 @@ const stats = [
 export default function Introduction() {
   return (
     <section id="about" className="py-20 lg:py-28 bg-white">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         {/* Label */}
         <AnimateIn direction="none">
           <p className="text-lg font-light text-[#121212] tracking-[-0.45px] text-center mb-4">

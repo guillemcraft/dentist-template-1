@@ -11,7 +11,7 @@ const checklistItems = [
 export default function WhyChooseUs() {
   return (
     <section className="bg-white py-20 lg:py-28">
-      <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
+      <div className="mx-auto max-w-[1280px] px-4 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
           {/* Left side - Image */}
           <AnimateIn direction="left">

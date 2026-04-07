@@ -43,7 +43,7 @@ const features = [
 export default function Features() {
   return (
     <section className="bg-[#3072FF] text-white py-16 lg:py-20">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         <AnimateIn direction="none">
         <p className="text-lg font-light text-white tracking-[-0.45px] text-center mb-4">
           Features

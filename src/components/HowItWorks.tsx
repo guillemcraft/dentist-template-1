@@ -35,7 +35,7 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section id="dentist" className="bg-white py-20 lg:py-28">
-      <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
+      <div className="mx-auto max-w-[1280px] px-4 lg:px-8">
         <AnimateIn direction="none">
         <p className="mb-4 text-lg font-light text-[#121212] tracking-[-0.45px] text-center">
           How It Works
