@@ -37,7 +37,7 @@ export default function HowItWorks() {
     <section id="dentist" className="bg-white py-20 lg:py-28">
       <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
         <AnimateIn direction="none">
-        <p className="mb-4 text-lg font-medium text-[#121212] tracking-[-0.45px] text-center">
+        <p className="mb-4 text-lg font-light text-[#121212] tracking-[-0.45px] text-center">
           How It Works
         </p>
         </AnimateIn>
@@ -75,7 +75,7 @@ export default function HowItWorks() {
                 <h5 className="mb-3 text-2xl font-medium leading-[36px] tracking-[-0.72px] text-[#121212] font-[family-name:var(--font-inter-display)]">
                   {step.title}
                 </h5>
-                <p className="mb-4 text-lg font-medium tracking-[-0.45px] text-[#575757]">
+                <p className="mb-4 text-lg font-light tracking-[-0.45px] text-[#575757]">
                   {step.description}
                 </p>
                 <Link

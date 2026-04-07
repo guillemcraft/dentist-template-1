@@ -10,7 +10,7 @@ export default function Hero() {
           {/* Left column - Text */}
           <div>
             <AnimateIn delay={0} direction="none">
-            <p className="text-lg font-medium text-[#121212] tracking-[-0.45px] mb-4">
+            <p className="text-lg font-light text-[#121212] tracking-[-0.45px] mb-4">
               Healthy smiles, happy lives.
             </p>
             </AnimateIn>
@@ -20,7 +20,7 @@ export default function Hero() {
             </h1>
             </AnimateIn>
             <AnimateIn delay={200}>
-            <p className="text-xl font-medium leading-[31px] tracking-[-0.5px] text-[#575757] mb-8 max-w-lg">
+            <p className="text-xl font-light leading-[31px] tracking-[-0.5px] text-[#575757] mb-8 max-w-lg">
               Experience personalized dental care designed to meet your unique
               needs. From preventive checkups to advanced oral health and
               confidence are always at their best.
@@ -40,7 +40,7 @@ export default function Hero() {
                 </svg>
                 <div>
                   <p className="text-base font-medium text-[#121212]">Contact us</p>
-                  <p className="text-sm font-medium text-[#575757] tracking-[-0.42px]">(123) 456 789</p>
+                  <p className="text-sm font-light text-[#575757] tracking-[-0.42px]">(123) 456 789</p>
                 </div>
               </a>
             </div>

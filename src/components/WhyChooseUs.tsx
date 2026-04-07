@@ -31,7 +31,7 @@ export default function WhyChooseUs() {
             <h3 className="font-[family-name:var(--font-inter-display)] text-3xl font-medium text-[#121212] lg:text-4xl mb-4">
               Why choose us:
             </h3>
-            <p className="text-lg font-medium tracking-[-0.45px] text-[#575757] mb-8">
+            <p className="text-lg font-light tracking-[-0.45px] text-[#575757] mb-8">
               We are dedicated to providing exceptional dental care that
               prioritizes your comfort, convenience, and lasting results.
               Here&apos;s what makes us stand out:
@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
                       />
                     </svg>
                   </div>
-                  <span className="text-lg font-medium tracking-[-0.45px] text-[#121212]">
+                  <span className="text-lg font-light tracking-[-0.45px] text-[#121212]">
                     {item}
                   </span>
                 </div>

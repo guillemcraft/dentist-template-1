@@ -36,8 +36,8 @@ export default function Contact() {
                   className="shrink-0 mt-0.5"
                 />
                 <div>
-                  <p className="text-lg font-medium tracking-[-0.45px] text-[#121212]">{loc.city}</p>
-                  <p className="text-base font-medium tracking-[-0.45px] text-[#575757]">{loc.address}</p>
+                  <p className="text-lg font-light tracking-[-0.45px] text-[#121212]">{loc.city}</p>
+                  <p className="text-base font-light tracking-[-0.45px] text-[#575757]">{loc.address}</p>
                 </div>
               </div>
             ))}

@@ -45,7 +45,7 @@ export default function Features() {
     <section className="bg-[#3072FF] text-white py-16 lg:py-20">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <AnimateIn direction="none">
-        <p className="text-lg font-medium text-white tracking-[-0.45px] text-center mb-4">
+        <p className="text-lg font-light text-white tracking-[-0.45px] text-center mb-4">
           Features
         </p>
         </AnimateIn>
@@ -71,7 +71,7 @@ export default function Features() {
               <h6 className="text-2xl font-medium leading-[36px] tracking-[-0.72px] text-white font-[family-name:var(--font-inter-display)] mb-2">
                 {feature.title}
               </h6>
-              <p className="text-lg font-medium tracking-[-0.45px] text-white/70">{feature.description}</p>
+              <p className="text-lg font-light tracking-[-0.45px] text-white/70">{feature.description}</p>
             </div>
             </AnimateIn>
           ))}

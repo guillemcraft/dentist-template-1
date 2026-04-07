@@ -52,7 +52,7 @@ export default function Services() {
     <section id="services" className="py-20 lg:py-28 bg-white">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <AnimateIn direction="none">
-        <p className="text-lg font-medium text-[#121212] tracking-[-0.45px] text-center mb-4">
+        <p className="text-lg font-light text-[#121212] tracking-[-0.45px] text-center mb-4">
           Services
         </p>
         </AnimateIn>
@@ -101,7 +101,7 @@ export default function Services() {
                     className="shrink-0"
                   />
                 </div>
-                <p className="text-lg font-medium tracking-[-0.45px] text-[#575757]">
+                <p className="text-lg font-light tracking-[-0.45px] text-[#575757]">
                   {service.description}
                 </p>
               </div>

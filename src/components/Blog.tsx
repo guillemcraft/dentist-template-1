@@ -28,7 +28,7 @@ export default function Blog() {
     <section id="blogs" className="py-20 lg:py-28 bg-white">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <AnimateIn direction="none">
-          <p className="text-lg font-medium text-[#121212] tracking-[-0.45px] text-center mb-4">
+          <p className="text-lg font-light text-[#121212] tracking-[-0.45px] text-center mb-4">
             Blogs
           </p>
         </AnimateIn>
@@ -66,7 +66,7 @@ export default function Blog() {
                     className="shrink-0 mt-1"
                   />
                 </div>
-                <div className="flex items-center gap-4 text-base font-medium tracking-[-0.45px] text-[#575757]">
+                <div className="flex items-center gap-4 text-base font-light tracking-[-0.45px] text-[#575757]">
                   <span className="flex items-center gap-1.5">
                     <Image
                       src="/images/icons/calendar.svg"

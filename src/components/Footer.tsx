@@ -35,7 +35,7 @@ export default function Footer() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-base font-medium tracking-[-0.45px] text-[#575757] hover:text-[#121212] transition"
+                className="text-base font-light tracking-[-0.45px] text-[#575757] hover:text-[#121212] transition"
               >
                 {link.label}
               </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
           </nav>
 
           {/* Copyright */}
-          <p className="text-base font-medium tracking-[-0.45px] text-[#575757] shrink-0">
+          <p className="text-base font-light tracking-[-0.45px] text-[#575757] shrink-0">
             &copy; {new Date().getFullYear()} Dentify
           </p>
         </div>

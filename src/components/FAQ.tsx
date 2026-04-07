@@ -42,7 +42,7 @@ export default function FAQ() {
     <section className="py-20 lg:py-28 bg-white">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <AnimateIn direction="none">
-          <p className="text-lg font-medium text-[#121212] tracking-[-0.45px] text-center mb-4">
+          <p className="text-lg font-light text-[#121212] tracking-[-0.45px] text-center mb-4">
             FAQ
           </p>
         </AnimateIn>
@@ -61,7 +61,7 @@ export default function FAQ() {
                 className="flex w-full items-center justify-between py-5 text-left"
                 aria-expanded={openIndex === index}
               >
-                <span className="text-lg font-medium tracking-[-0.45px] text-[#121212] pr-4">
+                <span className="text-lg font-light tracking-[-0.45px] text-[#121212] pr-4">
                   {faq.question}
                 </span>
                 <span className="shrink-0 text-xl text-[#121212]">
@@ -75,7 +75,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="overflow-hidden">
-                  <p className="pb-5 text-lg font-medium tracking-[-0.45px] text-[#575757] leading-relaxed">
+                  <p className="pb-5 text-lg font-light tracking-[-0.45px] text-[#575757] leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>

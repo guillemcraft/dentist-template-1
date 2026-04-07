@@ -35,7 +35,7 @@ export default function Introduction() {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Label */}
         <AnimateIn direction="none">
-          <p className="text-lg font-medium text-[#121212] tracking-[-0.45px] text-center mb-4">
+          <p className="text-lg font-light text-[#121212] tracking-[-0.45px] text-center mb-4">
             Introduction
           </p>
         </AnimateIn>
@@ -61,7 +61,7 @@ export default function Introduction() {
               <h3 className="text-2xl font-medium leading-[36px] tracking-[-0.72px] text-[#121212] font-[family-name:var(--font-inter-display)] mb-2">
                 {feature.title}
               </h3>
-              <p className="text-lg font-medium tracking-[-0.45px] text-[#575757]">
+              <p className="text-lg font-light tracking-[-0.45px] text-[#575757]">
                 {feature.description}
               </p>
             </AnimateIn>
@@ -93,7 +93,7 @@ export default function Introduction() {
               <p className="font-[family-name:var(--font-inter-display)] text-5xl lg:text-[64px] font-medium leading-[73.6px] tracking-[-1.92px] text-[#121212]">
                 {stat.value}
               </p>
-              <p className="text-xl font-medium leading-[31px] tracking-[-0.5px] text-[#121212] mt-2">{stat.label}</p>
+              <p className="text-xl font-light leading-[31px] tracking-[-0.5px] text-[#121212] mt-2">{stat.label}</p>
             </AnimateIn>
           ))}
         </div>

@@ -33,7 +33,7 @@ export default function Testimonials() {
     <section id="testimonials" className="bg-white py-20 lg:py-28">
       <div className="mx-auto max-w-[1280px] px-6 lg:px-8">
         <AnimateIn direction="none">
-          <p className="mb-4 text-lg font-medium text-[#121212] tracking-[-0.45px] text-center">
+          <p className="mb-4 text-lg font-light text-[#121212] tracking-[-0.45px] text-center">
             Testimonial
           </p>
         </AnimateIn>
@@ -81,7 +81,7 @@ export default function Testimonials() {
                   height={24}
                   className="mb-3"
                 />
-                <p className="mb-4 text-lg font-medium tracking-[-0.45px] text-[#121212]">
+                <p className="mb-4 text-lg font-light tracking-[-0.45px] text-[#121212]">
                   {t.quote}
                 </p>
 
