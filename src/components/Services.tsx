@@ -77,30 +77,31 @@ export default function Services() {
                   className="object-cover img-zoom"
                 />
               </div>
-              <div className="p-5">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <Image
-                      src="/images/icons/star.svg"
-                      alt="Rating"
-                      width={16}
-                      height={16}
-                    />
-                    <span className="text-base font-medium">
-                      {service.rating}
-                    </span>
-                    <span className="text-2xl font-medium leading-[36px] tracking-[-0.72px] text-[#121212] font-[family-name:var(--font-inter-display)]">
-                      {service.name}
-                    </span>
-                  </div>
+              <div className="pt-4">
+                <div className="flex items-center gap-1.5 mb-3">
+                  <Image
+                    src="/images/icons/star.svg"
+                    alt="Rating"
+                    width={16}
+                    height={16}
+                  />
+                  <span className="text-base font-medium text-[#121212]">
+                    {service.rating}
+                  </span>
+                </div>
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-2xl font-medium leading-[36px] tracking-[-0.72px] text-[#121212] font-[family-name:var(--font-inter-display)]">
+                    {service.name}
+                  </span>
                   <Image
                     src="/images/icons/arrow.svg"
-                    alt="Arrow"
+                    alt=""
                     width={20}
                     height={20}
+                    className="shrink-0"
                   />
                 </div>
-                <p className="text-lg font-medium tracking-[-0.45px] text-[#575757] mt-2">
+                <p className="text-lg font-medium tracking-[-0.45px] text-[#575757]">
                   {service.description}
                 </p>
               </div>
